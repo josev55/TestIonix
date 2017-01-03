@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomSegue.h
 //  TestIonix
 //
 //  Created by Jose Vildosola on 29-12-16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomSegue : UIStoryboardSegue
 
 @end
-

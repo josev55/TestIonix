@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75BBFA50EB54BAC722B796D5 /* libPods-TestIonix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E8DDDF5FA9A2DF5C440802 /* libPods-TestIonix.a */; };
 		E86991551E15B32500F4D918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86991541E15B32500F4D918 /* main.m */; };
 		E86991581E15B32500F4D918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86991571E15B32500F4D918 /* AppDelegate.m */; };
-		E869915B1E15B32500F4D918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E869915A1E15B32500F4D918 /* ViewController.m */; };
 		E869915E1E15B32500F4D918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E869915C1E15B32500F4D918 /* Main.storyboard */; };
 		E86991601E15B32500F4D918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E869915F1E15B32500F4D918 /* Assets.xcassets */; };
 		E86991631E15B32500F4D918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86991611E15B32500F4D918 /* LaunchScreen.storyboard */; };
+		E86991731E15B8E300F4D918 /* TestIonixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86991721E15B8E300F4D918 /* TestIonixTests.m */; };
+		E869917E1E15B95200F4D918 /* IOXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E869917D1E15B95200F4D918 /* IOXLoginViewController.m */; };
+		E86991811E15B97400F4D918 /* IOXCryptoWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E86991801E15B97400F4D918 /* IOXCryptoWrapper.m */; };
+		E86991841E15BA4300F4D918 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86991831E15BA4300F4D918 /* SystemConfiguration.framework */; };
+		E86991891E15C72900F4D918 /* IOXUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86991881E15C72900F4D918 /* IOXUsersViewController.m */; };
+		E869918D1E15C96700F4D918 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E869918C1E15C96700F4D918 /* CustomSegue.m */; };
+		E86991901E15CABB00F4D918 /* IOXUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E869918F1E15CABB00F4D918 /* IOXUserViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E86991751E15B8E300F4D918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86991481E15B32500F4D918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E869914F1E15B32500F4D918;
+			remoteInfo = TestIonix;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5F8980223B0446ED4B1D2A60 /* Pods-TestIonix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIonix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestIonix/Pods-TestIonix.debug.xcconfig"; sourceTree = "<group>"; };
+		75F17A6BB0D575497B32602C /* Pods-TestIonix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIonix.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestIonix/Pods-TestIonix.release.xcconfig"; sourceTree = "<group>"; };
 		E86991501E15B32500F4D918 /* TestIonix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIonix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86991541E15B32500F4D918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E86991561E15B32500F4D918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E86991571E15B32500F4D918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E86991591E15B32500F4D918 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E869915A1E15B32500F4D918 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E869915D1E15B32500F4D918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E869915F1E15B32500F4D918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E86991621E15B32500F4D918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E86991641E15B32500F4D918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86991701E15B8E300F4D918 /* TestIonixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIonixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86991721E15B8E300F4D918 /* TestIonixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIonixTests.m; sourceTree = "<group>"; };
+		E86991741E15B8E300F4D918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E869917C1E15B95200F4D918 /* IOXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOXLoginViewController.h; path = Login/ViewControllers/IOXLoginViewController.h; sourceTree = "<group>"; };
+		E869917D1E15B95200F4D918 /* IOXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOXLoginViewController.m; path = Login/ViewControllers/IOXLoginViewController.m; sourceTree = "<group>"; };
+		E869917F1E15B97400F4D918 /* IOXCryptoWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOXCryptoWrapper.h; path = Utils/IOXCryptoWrapper.h; sourceTree = "<group>"; };
+		E86991801E15B97400F4D918 /* IOXCryptoWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOXCryptoWrapper.m; path = Utils/IOXCryptoWrapper.m; sourceTree = "<group>"; };
+		E86991831E15BA4300F4D918 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E86991871E15C72900F4D918 /* IOXUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOXUsersViewController.h; path = Users/IOXUsersViewController.h; sourceTree = "<group>"; };
+		E86991881E15C72900F4D918 /* IOXUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOXUsersViewController.m; path = Users/IOXUsersViewController.m; sourceTree = "<group>"; };
+		E869918B1E15C96700F4D918 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		E869918C1E15C96700F4D918 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
+		E869918E1E15CABB00F4D918 /* IOXUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOXUserViewController.h; path = Users/IOXUserViewController.h; sourceTree = "<group>"; };
+		E869918F1E15CABB00F4D918 /* IOXUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOXUserViewController.m; path = Users/IOXUserViewController.m; sourceTree = "<group>"; };
+		F9E8DDDF5FA9A2DF5C440802 /* libPods-TestIonix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestIonix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75BBFA50EB54BAC722B796D5 /* libPods-TestIonix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E869916D1E15B8E300F4D918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86991841E15BA4300F4D918 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E7BF3AC989EE486E9587EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86991831E15BA4300F4D918 /* SystemConfiguration.framework */,
+				F9E8DDDF5FA9A2DF5C440802 /* libPods-TestIonix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1F6786EAA52CEF0777D67BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F8980223B0446ED4B1D2A60 /* Pods-TestIonix.debug.xcconfig */,
+				75F17A6BB0D575497B32602C /* Pods-TestIonix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E86991471E15B32500F4D918 = {
 			isa = PBXGroup;
 			children = (
 				E86991521E15B32500F4D918 /* TestIonix */,
+				E86991711E15B8E300F4D918 /* TestIonixTests */,
 				E86991511E15B32500F4D918 /* Products */,
+				B1F6786EAA52CEF0777D67BB /* Pods */,
+				3E7BF3AC989EE486E9587EA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				E86991501E15B32500F4D918 /* TestIonix.app */,
+				E86991701E15B8E300F4D918 /* TestIonixTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +121,11 @@
 		E86991521E15B32500F4D918 /* TestIonix */ = {
 			isa = PBXGroup;
 			children = (
+				E86991851E15C6FD00F4D918 /* Users */,
+				E86991821E15B97C00F4D918 /* Utils */,
+				E869917A1E15B91E00F4D918 /* Login */,
 				E86991561E15B32500F4D918 /* AppDelegate.h */,
 				E86991571E15B32500F4D918 /* AppDelegate.m */,
-				E86991591E15B32500F4D918 /* ViewController.h */,
-				E869915A1E15B32500F4D918 /* ViewController.m */,
 				E869915C1E15B32500F4D918 /* Main.storyboard */,
 				E869915F1E15B32500F4D918 /* Assets.xcassets */,
 				E86991611E15B32500F4D918 /* LaunchScreen.storyboard */,
@@ -79,6 +143,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E86991711E15B8E300F4D918 /* TestIonixTests */ = {
+			isa = PBXGroup;
+			children = (
+				E86991721E15B8E300F4D918 /* TestIonixTests.m */,
+				E86991741E15B8E300F4D918 /* Info.plist */,
+			);
+			path = TestIonixTests;
+			sourceTree = "<group>";
+		};
+		E869917A1E15B91E00F4D918 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E869917B1E15B92600F4D918 /* ViewControllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E869917B1E15B92600F4D918 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E869917C1E15B95200F4D918 /* IOXLoginViewController.h */,
+				E869917D1E15B95200F4D918 /* IOXLoginViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E86991821E15B97C00F4D918 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E869917F1E15B97400F4D918 /* IOXCryptoWrapper.h */,
+				E86991801E15B97400F4D918 /* IOXCryptoWrapper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E86991851E15C6FD00F4D918 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				E869918A1E15C93200F4D918 /* Segue */,
+				E86991861E15C70700F4D918 /* ViewControllers */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		E86991861E15C70700F4D918 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E86991871E15C72900F4D918 /* IOXUsersViewController.h */,
+				E86991881E15C72900F4D918 /* IOXUsersViewController.m */,
+				E869918E1E15CABB00F4D918 /* IOXUserViewController.h */,
+				E869918F1E15CABB00F4D918 /* IOXUserViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E869918A1E15C93200F4D918 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				E869918B1E15C96700F4D918 /* CustomSegue.h */,
+				E869918C1E15C96700F4D918 /* CustomSegue.m */,
+			);
+			name = Segue;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E86991671E15B32500F4D918 /* Build configuration list for PBXNativeTarget "TestIonix" */;
 			buildPhases = (
+				4354A505197E67CE69279CA7 /* [CP] Check Pods Manifest.lock */,
 				E869914C1E15B32500F4D918 /* Sources */,
 				E869914D1E15B32500F4D918 /* Frameworks */,
 				E869914E1E15B32500F4D918 /* Resources */,
+				6E75EB53050FC3EA7390202F /* [CP] Embed Pods Frameworks */,
+				6CF716BCE810BFB88194D6E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +229,24 @@
 			productName = TestIonix;
 			productReference = E86991501E15B32500F4D918 /* TestIonix.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E869916F1E15B8E300F4D918 /* TestIonixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86991771E15B8E300F4D918 /* Build configuration list for PBXNativeTarget "TestIonixTests" */;
+			buildPhases = (
+				E869916C1E15B8E300F4D918 /* Sources */,
+				E869916D1E15B8E300F4D918 /* Frameworks */,
+				E869916E1E15B8E300F4D918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86991761E15B8E300F4D918 /* PBXTargetDependency */,
+			);
+			name = TestIonixTests;
+			productName = TestIonixTests;
+			productReference = E86991701E15B8E300F4D918 /* TestIonixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -112,6 +261,12 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5SUJ64S4DV;
 						ProvisioningStyle = Automatic;
+					};
+					E869916F1E15B8E300F4D918 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5SUJ64S4DV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E869914F1E15B32500F4D918;
 					};
 				};
 			};
@@ -129,6 +284,7 @@
 			projectRoot = "";
 			targets = (
 				E869914F1E15B32500F4D918 /* TestIonix */,
+				E869916F1E15B8E300F4D918 /* TestIonixTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,20 +300,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E869916E1E15B8E300F4D918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4354A505197E67CE69279CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF716BCE810BFB88194D6E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIonix/Pods-TestIonix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E75EB53050FC3EA7390202F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestIonix/Pods-TestIonix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E869914C1E15B32500F4D918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E869915B1E15B32500F4D918 /* ViewController.m in Sources */,
+				E869917E1E15B95200F4D918 /* IOXLoginViewController.m in Sources */,
 				E86991581E15B32500F4D918 /* AppDelegate.m in Sources */,
+				E86991901E15CABB00F4D918 /* IOXUserViewController.m in Sources */,
+				E869918D1E15C96700F4D918 /* CustomSegue.m in Sources */,
+				E86991891E15C72900F4D918 /* IOXUsersViewController.m in Sources */,
 				E86991551E15B32500F4D918 /* main.m in Sources */,
+				E86991811E15B97400F4D918 /* IOXCryptoWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E869916C1E15B8E300F4D918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86991731E15B8E300F4D918 /* TestIonixTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E86991761E15B8E300F4D918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E869914F1E15B32500F4D918 /* TestIonix */;
+			targetProxy = E86991751E15B8E300F4D918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E869915C1E15B32500F4D918 /* Main.storyboard */ = {
@@ -269,10 +500,12 @@
 		};
 		E86991681E15B32500F4D918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8980223B0446ED4B1D2A60 /* Pods-TestIonix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5SUJ64S4DV;
 				INFOPLIST_FILE = TestIonix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaingore.TestIonix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,13 +514,41 @@
 		};
 		E86991691E15B32500F4D918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F17A6BB0D575497B32602C /* Pods-TestIonix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5SUJ64S4DV;
 				INFOPLIST_FILE = TestIonix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaingore.TestIonix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E86991781E15B8E300F4D918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5SUJ64S4DV;
+				INFOPLIST_FILE = TestIonixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaingore.TestIonixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestIonix.app/TestIonix";
+			};
+			name = Debug;
+		};
+		E86991791E15B8E300F4D918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5SUJ64S4DV;
+				INFOPLIST_FILE = TestIonixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaingore.TestIonixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestIonix.app/TestIonix";
 			};
 			name = Release;
 		};
@@ -308,6 +569,15 @@
 			buildConfigurations = (
 				E86991681E15B32500F4D918 /* Debug */,
 				E86991691E15B32500F4D918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86991771E15B8E300F4D918 /* Build configuration list for PBXNativeTarget "TestIonixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86991781E15B8E300F4D918 /* Debug */,
+				E86991791E15B8E300F4D918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
